@@ -11,7 +11,7 @@
 <h5>SGBD: MySql</5>
 
 <h1>Tela de Login</h1>
-<div>
+<div style="display:flex">
     <div style="display:row">
         <h3>Login</h3>
         <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-login.png" style="width: 18rem"/>
