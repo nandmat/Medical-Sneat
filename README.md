@@ -11,19 +11,16 @@
 <h5>SGBD: MySql</5>
 
 <h1>Tela de Login</h1>
-<div style="display:flex">
+<div>
     <div style="display:row">
         <h3>Login</h3>
         <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-login.png" style="width: 18rem"/>
     </div>
-    <div style="display:row">
+    <div>
         <h3>Registro</h3>
         <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-register.png" style="width: 18rem"/>
     </div>
-    <div style="display:row">
-        <h3>Dashboard</h3>
-        <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-dashboard.png" style="width: 18rem"/>
-    </div>
+    
 </div>
 
 
