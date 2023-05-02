@@ -56,18 +56,10 @@
         <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-assinatura-card.png" style="width: 700px; height: 450px"/>
 </div>
 
-<h3>Procedimentos para o uso do MedicalSneat:</h3>
-<ul>
-    <li>Clone o reposítorio em sua máquina local</li>
-    <li>Abra o terminal e execute o comando: <b>composer require</b></li>
-    <li>Ainda no terminal execute: <b>mv .env.example .env</b></li>
-    <li>Execute o comando: <b>php artisan key:generate</b></li>
-    <li>Configure o aquivo <b>.env</b> com as credenciais do seu banco de dados</li>
-    <li>Com o banco de dados criado, execute no terminal o comando: <b>php artisan migrate</b></li>
-</ul>
+<h3>Documentação de métodos e procedimentos:</h3>
 
-
-
+<h4>AuthController</h4>
+<img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/AuthController-auth.png" style="width: 500; height:500"\>
 
 
 
