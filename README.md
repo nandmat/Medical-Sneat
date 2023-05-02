@@ -95,7 +95,7 @@
  <h5>public function show(Plan $plan, Request $request)</h5>
 <ul>
     <li>recupera os dados do usuário autenticado através do encadeamento de métodos <b>auth()->user()->id</b> através do <b>id</b> e atribui como valor a variável <b>$user</b></li>
-  <li>Redireciona o usuário para a rota de preenchimento dos dados do cartão para assinatura, passando como parâmentro</li>
+  <li>Redireciona o usuário para a rota de preenchimento dos dados do cartão para assinatura, passando como parâmentro a váriável <$plan</b> com os dados do plano que deseja assinar, uma varíavel com a nomenclatura <b>$intent</b> com o valor atríbuido do resultado do método <b>$user->createSetupIntent()</li> que cria uma nova intenção de configuração de pagamento via Stripe e os dados do usuário atribuídos ateriormente a variável <b>$user</b></li>
     <li>Depende da inicialização da sessão através do <b>Auth</b> pro conta do middleware <b>auth</b></li>
  </ul>
         
