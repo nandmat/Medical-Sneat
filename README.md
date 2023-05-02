@@ -99,6 +99,13 @@
     <li>Depende da inicialização da sessão através do <b>Auth</b> pro conta do middleware <b>auth</b></li>
  </ul>
         
+ <h5>public function subscription(Request $request)</h5>
+<ul>
+    <li>Inicialmente é feita uma consulta ao banco de dados atribuindo o resultado à variável <b>$plan</b>: <b>$plan = Plan::find($request->id);</b></li>
+    <li>Com o encademanento proveniente do objeto <$request->user()</b> conseguimos adicionar mais um encadeamento de métodos usando o método <b>$request->user()->newSubscription()</b>, passando como parâmetro o valor de $request->plan e  o valor de $plan->stripe_plan, e encadeamos mais um método: <b>$request->user()->newSubscription($request-plan, $plan->stripe_plan)->create()</b>, passando como parâmetro para o método create o valor de $request->token</li>
+    <li>Para fins didáticos, o retorno dessa função é um redirecionamento para a rota que leva até o dashboard</li>
+ </ul>
+        
 
 <h1>Tela de Login</h1>
 <div style="display:flex">
