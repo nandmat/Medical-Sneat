@@ -37,8 +37,6 @@
     <li>Após o sucesso da verificação, usamos o <b>if</b> para verificar se o retorno é true do <b>Auth::attempt</b> que recebe como parâmentro um array contendo as credenciais requeridas estão de acordo com as cadastradas na base dados</li>
     <li>O sucesso dessa verificação passa para a próxima linha de código, onde iniciamos uma sessão com as crendenciais do usuário em questão</li>
  </ul>
- 
-<img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/AuthController-auth.png" style="margin:20px; width: 450px; height:450px"\>
 
 <h5>public function create()</h5>
 <ul>
@@ -55,9 +53,14 @@
     <li>Encerra a sessão criada no método <b>auth()<b/> e redireciona o usuário para a view de login</li>
 </ul>
         
-<img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/AuthController-create-logout.png" style="margin:20px; width:450px;height:450px" />
+<h4>UserController</h4>
         
-
+<h5>public function store(Request $request)</h5>
+<ul>
+    <li>Através do objeto instanciado da classe <b>Request</b>, usamos o método <b>validate()</b> para requerir, limitar o tamanhando de strings recebidas via parâmentros da função</li>
+    <li>Feito isso, usamos o método <b>User::create()</b>, herdado da classe <b>Model</b> para registrar um novo usuário na base dados</li>
+</ul>
+        
 
 <h1>Tela de Login</h1>
 <div style="display:flex">
