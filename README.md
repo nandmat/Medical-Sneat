@@ -13,12 +13,13 @@
 <h3>Procedimentos para o uso do MedicalSneat:</h3>
 <ul>
     <li>Clone o reposítorio em sua máquina local</li>
-    <li>Abra o terminal e execute o comando: <b style="color:red">composer require</b></li>
-    <li>Ainda no terminal execute: <b style="color:red">mv .env.example .env</b></li>
-    <li>Execute o comando: <b style="color:red">php artisan key:generate</b></li>
-    <li>Configure o aquivo <b style="color:red">.env</b> com as credenciais do seu banco de dados</li>
-    <li>Com o banco de dados criado, execute no terminal o comando: <b style="color:red">php artisan migrate</b></li>
-    <li>Execute comando <b style="color:red">php artisan db:seed --class=PlanSeeder</b>para adicionar os cards de assinaturas</b>
+    <li>Abra o terminal e execute o comando: <b>composer require</b></li>
+    <li>Ainda no terminal execute: <b>mv .env.example .env</b></li>
+    <li>Execute o comando: <b>php artisan key:generate</b></li>
+    <li>Configure o aquivo <b>.env</b> com as credenciais do seu banco de dados</li>
+    <li>Com o banco de dados criado, execute no terminal o comando: <b>php artisan migrate</b></li>
+    <li>Execute comando <b>php artisan db:seed --class=PlanSeeder</b> para adicionar os cards de assinaturas</b>
+    <li>Execute o comando <b>php artisan serve</b> para rodar a aplicação e clique no link para ter acesso a porta que está servindo a aplicação</li>
 </ul>
 
 
