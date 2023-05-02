@@ -28,6 +28,7 @@
 <h3>Documentação de métodos e procedimentos:</h3>
 
 <h4>AuthController</h4>
+<h5>public function auth(Request $request)</h5>
 <ul>
     <li>A função <b>auth()</b> recebe os dados de um usuário cadastrado no MedicalSneat</li>
     <li>Como estamos instanciando um objeto da classe <b>Request</b>, podemos nos beneficiar dos métodos da mesma</li>
