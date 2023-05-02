@@ -18,7 +18,7 @@
 
 <h3>Dashboard</h3>
 <div style="display:flex">
-        <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-dashboard.png" style="width: 450px; height: 450px"/>
+        <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-dashboard.png" style="width: 450px; height: 700px"/>
 </div>
 
 
