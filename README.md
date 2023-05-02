@@ -10,6 +10,21 @@
 <h5>Lib Laravel Cashier(Stribe)</5>
 <h5>SGBD: MySql</5>
 
+<h3>Procedimentos para o uso do MedicalSneat:</h3>
+<ul>
+    <li>Clone o reposítorio em sua máquina local</li>
+    <li>Abra o terminal e execute o comando: <b>composer require</b></li>
+    <li>Ainda no terminal execute: <b>mv .env.example .env</b></li>
+    <li>Execute o comando: <b>php artisan key:generate</b></li>
+    <li>Configure o aquivo <b>.env</b> com as credenciais do seu banco de dados</li>
+    <li>Com o banco de dados criado, execute no terminal o comando: <b>php artisan migrate</b></li>
+</ul>
+
+
+
+
+
+
 <h1>Tela de Login</h1>
 <div style="display:flex">
      <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-login.png" style="width: 700px; height: 450px"/>
@@ -39,8 +54,6 @@
         <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-assinatura-card.png" style="width: 700px; height: 450px"/>
 </div>
 
-<h1>_____________________________________________________________________</h1>
-
 <h3>Procedimentos para o uso do MedicalSneat:</h3>
 <ul>
     <li>Clone o reposítorio em sua máquina local</li>
@@ -49,6 +62,7 @@
     <li>Execute o comando: <b>php artisan key:generate</b></li>
     <li>Configure o aquivo <b>.env</b> com as credenciais do seu banco de dados</li>
     <li>Com o banco de dados criado, execute no terminal o comando: <b>php artisan migrate</b></li>
+</ul>
 
 
 
