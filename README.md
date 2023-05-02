@@ -15,7 +15,7 @@
 <h3>Procedimentos para o uso do MedicalSneat:</h3>
 <ul>
     <li>Clone o reposítorio em sua máquina local</li>
-    <li>Abra o terminal e execute o comando: ```<b>composer require</b>```</li>
+    <li>Abra o terminal e execute o comando: <b>composer require</b></li>
     <li>Ainda no terminal execute: <b>mv .env.example .env</b></li>
     <li>Execute o comando: <b>php artisan key:generate</b></li>
     <li>Configure o aquivo <b>.env</b> com as credenciais do seu banco de dados</li>
