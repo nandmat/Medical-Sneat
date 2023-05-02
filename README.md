@@ -10,7 +10,7 @@
 <h5>Lib Laravel Cashier(Stribe)</5>
 <h5>SGBD: MySql</5>
 <br>
-<b>Nessa pequena demonstração do projeto as funcionalidades estão reduzidas para o que foi pedido nas instruções do teste prático, mas podemos evoluir muito mais essa ideia de projeto</b>
+<h5>Nessa pequena demonstração do projeto as funcionalidades estão reduzidas para o que foi pedido nas instruções do teste prático, mas podemos evoluir muito mais essa ideia de projeto</h5>
 
 <h3>Procedimentos para o uso do MedicalSneat:</h3>
 <ul>
