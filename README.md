@@ -39,6 +39,23 @@
  </ul>
 <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/AuthController-auth.png" style="margin :20px; width: 450px; height:450px"\>
 
+<h5>public function create()</h5>
+<ul>
+    <li>A função <b>create()</b> tem como objetivo apenas retornar a <b>view<b> que possuio formulário de cadastro de usuário</li>
+</ul>
+        
+ <h5>public function pageAccountSettings($id)</h5>
+<ul>
+    <li>Recebe como parâmetro o id do usuário logado no sistema e retorna e preenche com os dados do mesmo a view responsável por conter o formulário de atualização dos dados cadastrais</li>
+</ul>
+        
+<h5>public function logout(Request $request)</h5>
+<ul>
+    <li>Encerra a sessão criada no método <b>auth()<b/> e redireciona o usuário para a view de login</li>
+</ul>
+        
+<img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/AuthController-create-logout.png" style="margin :20px; width: 450px; height:450px"\>
+
 
 
 
