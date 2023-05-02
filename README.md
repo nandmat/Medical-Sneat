@@ -59,6 +59,10 @@
 <h3>Documentação de métodos e procedimentos:</h3>
 
 <h4>AuthController</h4>
+<ul>
+    <li>A função <b>auth()</b> recebe os dados de um usuário cadastrado no MedicalSneat</li>
+    <li>Como estamos instanciando um objeto da classe <b>Request</b>, podemos nos beneficiar dos métodos da mesma</li>
+    <li>Encadeando o uso do método <b>validade()</b> através do <b>$request</b> podemos conferir se o email e senha informados são os mesmos que estão cadastrados no banco de dados</li>
 <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/AuthController-auth.png" style="width: 250; height:250"\>
 
 
