@@ -68,7 +68,7 @@
     <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-register.png" style="width: 700px; height: 450px"/>
 </div>
 
-<h3>Dashboard</h3>
+<!-- <h3>Dashboard</h3>
 <div style="display:flex">
         <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-dashboard.png" style="width: 700px; height: 450px"/>
 </div>
@@ -89,5 +89,5 @@
 </div>
 
 
-
+ -->
 
