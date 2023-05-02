@@ -24,6 +24,21 @@
         <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-dashboard.png" style="width: 700px; height: 450px"/>
 </div>
 
+<h3>Configurações da Conta</h3>
+<div style="display:flex">
+        <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-conta.png" style="width: 700px; height: 450px"/>
+</div>
+
+<h3>Produtos - Assinaturas</h3>
+<div style="display:flex">
+        <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-assinatura.png" style="width: 700px; height: 450px"/>
+</div>
+
+<h3>Área de pagamento</h3>
+<div style="display:flex">
+        <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-assinatura-card.png" style="width: 700px; height: 450px"/>
+</div>
+
 
 
 
