@@ -12,15 +12,8 @@
 
 <h1>Tela de Login</h1>
 <div style="display:flex">
-    <div>
-        <h3>Login</h3>
-        <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-login.png" style="width: 18rem"/>
-    </div>
-    <div>
-        <h3>Registro</h3>
-        <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-register.png" style="width: 18rem"/>
-    </div>
-    
+     <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-login.png" style="width: 18rem"/>
+    <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-register.png" style="width: 18rem"/>
 </div>
 
 
