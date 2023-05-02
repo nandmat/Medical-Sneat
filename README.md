@@ -12,8 +12,8 @@
 
 <h1>Tela de Login</h1>
 <div style="display:flex">
-     <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-login.png" style="width: 18rem"/>
-    <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-register.png" style="width: 18rem"/>
+     <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-login.png" style="width: 18rem; height: 14rem"/>
+    <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-register.png" style="width: 18rem; height: 14rem"/>
 </div>
 
 <h3>Dashboard</h3>
