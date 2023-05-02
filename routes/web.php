@@ -30,6 +30,7 @@ Route::middleware('auth')->group(function(){
     Route::get('/assinaturas', [PlanController::class, 'index'])->name('dashboard.cards');
     Route::get('/assinaturas/{plan}', [PlanController::class, 'show'])->name('dashboard.cards.show');
     Route::post('/assinar', [PlanController::class, 'subscription'])->name('dashboard.cards.subscription');
+    Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 });
 
 //User
