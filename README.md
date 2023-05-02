@@ -37,6 +37,7 @@
     <li>Após o sucesso da verificação, usamos o <b>if</b> para verificar se o retorno é true do <b>Auth::attempt</b> que recebe como parâmentro um array contendo as credenciais requeridas estão de acordo com as cadastradas na base dados</li>
     <li>O sucesso dessa verificação passa para a próxima linha de código, onde iniciamos uma sessão com as crendenciais do usuário em questão</li>
  </ul>
+ 
 <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/AuthController-auth.png" style="margin:20px; width: 450px; height:450px"\>
 
 <h5>public function create()</h5>
@@ -54,9 +55,8 @@
     <li>Encerra a sessão criada no método <b>auth()<b/> e redireciona o usuário para a view de login</li>
 </ul>
         
-<img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/AuthController-create-logout.png" style="margin:20px; width: 450px; height:450px"\>
-
-
+<img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/AuthController-create-logout.png" style="margin:20px; width:450px;height:450px" />
+        
 
 
 <h1>Tela de Login</h1>
