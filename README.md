@@ -20,6 +20,7 @@
     <li>Com o banco de dados criado, execute no terminal o comando: <b>php artisan migrate</b></li>
     <li>Execute comando <b>php artisan db:seed --class=PlanSeeder</b> para adicionar os cards de assinaturas</b>
     <li>Execute o comando <b>php artisan serve</b> para rodar a aplicação e clique no link para ter acesso a porta que está servindo a aplicação</li>
+    
 </ul>
 
 <h3>Documentação de métodos e procedimentos:</h3>
@@ -28,8 +29,12 @@
 <ul>
     <li>A função <b>auth()</b> recebe os dados de um usuário cadastrado no MedicalSneat</li>
     <li>Como estamos instanciando um objeto da classe <b>Request</b>, podemos nos beneficiar dos métodos da mesma</li>
-    <li>Encadeando o uso do método <b>validade()</b> através do <b>$request</b> podemos conferir se o email e senha informados são os mesmos que estão cadastrados no banco de dados</li>
-<img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/AuthController-auth.png" style="margin:10px;width: 450px; height:450px"\>
+    <li>Encadeando o uso do método <b>validade()</b> através do <b>$request</b> podemos exigir que os parâmetros de credenciais sejam informados</li>
+    <li>Caso o úsuário informe um dado incorreto ou deixe de informar os mesmos, o método <b>validate()</b> faz o retorno de mensagens que podem ser preedefinidas dentro dele para cada informação enviada à função <b>auth()</b></li>
+    <li>Após o sucesso da verificação, usamos o <b>if</b> para verificar se o retorno é true do <b>Auth::attempt</b> que recebe como parâmentro um array contendo as credenciais requeridas estão de acordo com as cadastradas na base dados</li>
+    <li>O sucesso dessa verificação passa para a próxima linha de código, onde iniciamos uma sessão com as crendenciais do usuário em questão</li>
+ </ul>
+<img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/AuthController-auth.png" style="margin :20px; width: 450px; height:450px"\>
 
 
 
