@@ -69,6 +69,7 @@
     <li>Após isso, é verificado através <b>User::find($id)</b> com uma condicional para ver se é verdadeiro que existam dados referentes à esse id no banco de dados        atribuímos o retorno dos dados a variável <b>$user</b></li>
     <li>Se verdadeiro, atualizamos os dados recebidos no objeto istanciado <b>$request</b> e é usado o <b>redirect()</b> para redirecionar o usuário para a rota de dashboard</li> 
 </ul>
+        
 <h5>public function destroy($id)</h5>
 <ul>
     <li>Essa função recupera o ID do usuário logado e atribui como valor a variável <b>$id</b> passado como parâmetro da rota</li>
@@ -76,6 +77,27 @@
     <li>Se verdadeiro, é usado o <b>redirect()</b> para redirecionar o usuário para a rota de login</li> 
     <li>Caso seja falso, redirecionamos o usuário para a rota anterior com a mensagem de erro</li>
 </ul>
+        
+<h4>DashboardController</h4>
+<h5>public function index()</h5>
+<ul>
+    <li>redireciona o usuário para a rota de <b>dashboard</b></li>
+    <li>Depende da inicialização da sessão através do <b>Auth</b> pro conta do middleware <b>auth</b></li>
+ </ul>
+        
+ <h4>PlanController</h4>
+<h5>public function index()</h5>
+<ul>
+    <li>redireciona o usuário para a rota de <b>assinaturas</b> passando como parâmetro os planos de assinaturas previamente cadastrados no banco de dados</li>
+    <li>Depende da inicialização da sessão através do <b>Auth</b> pro conta do middleware <b>auth</b></li>
+ </ul>
+        
+ <h5>public function show(Plan $plan, Request $request)</h5>
+<ul>
+    <li>recupera os dados do usuário autenticado através do encadeamento de métodos <b>auth()->user()->id</b> através do <b>id</b> e atribui como valor a variável <b>$user</b></li>
+  <li>Redireciona o usuário para a rota de preenchimento dos dados do cartão para assinatura, passando como parâmentro</li>
+    <li>Depende da inicialização da sessão através do <b>Auth</b> pro conta do middleware <b>auth</b></li>
+ </ul>
         
 
 <h1>Tela de Login</h1>
