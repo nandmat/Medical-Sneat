@@ -59,7 +59,7 @@
 <h3>Documentação de métodos e procedimentos:</h3>
 
 <h4>AuthController</h4>
-<img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/AuthController-auth.png" style="width: 500; height:500"\>
+<img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/AuthController-auth.png" style="width: 250; height:250"\>
 
 
 
