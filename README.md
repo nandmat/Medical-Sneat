@@ -54,7 +54,7 @@
     <li>Encerra a sessão criada no método <b>auth()<b/> e redireciona o usuário para a view de login</li>
 </ul>
         
-<img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/AuthController-create-logout.png" style="margin :20px; width: 450px; height:450px"\>
+<img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/AuthController-auth.png" style="margin :20px; width: 450px; height:450px"\>
 
 
 
