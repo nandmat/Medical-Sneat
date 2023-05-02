@@ -57,8 +57,11 @@
         
 <h5>public function store(Request $request)</h5>
 <ul>
-    <li>Através do objeto instanciado da classe <b>Request</b>, usamos o método <b>validate()</b> para requerir, limitar o tamanhando de strings recebidas via parâmentros da função</li>
-    <li>Feito isso, usamos o método <b>User::create()</b>, herdado da classe <b>Model</b> para registrar um novo usuário na base dados</li>
+    <li>Através do objeto instanciado da classe <b>Request</b>, usamos o método <b>validate()</b> para requerir, limitar o tamanhando de strings recebidas via parâmentros da função e atribuírmos esse valor a um array denominado de <b>$user</b></li>
+    <li>Caso a validação seja positiva, atribui-se ao <b>$user['password']</b> o valor de retorno da função <b>bycript()</b> que recebe <b>$user['password']</b> como parâmentro</li>
+    <li>Após a encriptação da senha, uma condicional <b>if(User::create($user)</b> para verificar se é verdadeiro a criação destes dado no banco de dados, caso seja verdadeiro, encaminhamos o usuário através do <b>redirect()</b> para a rota de login</li>
+    <li>Caso seja falso, redirecionamos o usuário para a rota anterior com a mensagem de erro</li>
+    
 </ul>
         
 
@@ -71,26 +74,25 @@
     <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-register.png" style="width: 400px; height: 400px"/>
 </div>
 
-<!-- <h3>Dashboard</h3>
+<h3>Dashboard</h3>
 <div style="display:flex">
-        <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-dashboard.png" style="width: 700px; height: 450px"/>
+        <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-dashboard.png" style="width: 400px; height: 400px"/>
 </div>
  
 <h3>Configurações da Conta</h3>
 <div style="display:flex">
-        <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-conta.png" style="width: 700px; height: 450px"/>
+        <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-conta.png" style="width: 400px; height: 400px"/>
 </div>
 
 <h3>Produtos - Assinaturas</h3>
 <div style="display:flex">
-        <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-assinatura.png" style="width: 700px; height: 450px"/>
+        <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-assinatura.png" style="width: 400px; height: 400px"/>
 </div>
 
 <h3>Área de pagamento</h3>
 <div style="display:flex">
-        <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-assinatura-card.png" style="width: 700px; height: 450px"/>
+        <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-assinatura-card.png" style="width: 400px; height: 400px"/>
 </div>
 
 
- -->
 
