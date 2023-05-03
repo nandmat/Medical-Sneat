@@ -107,13 +107,10 @@
  </ul>
         
 
-<h1>Tela de Login</h1>
+<h1>Tela de Login e Cadastro</h1>
 <div style="display:flex">
      <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-login.png" style="width: 400px; height: 400px"/>
-</div>
-<h1>Tela de Cadastro</h1>
-<div style="display:flex">
-    <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-register.png" style="width: 400px; height: 400px"/>
+     <img src="https://github.com/nandmat/Medical-Sneat/blob/main/Portif%C3%B3lio/medical-sneat-register.png" style="width: 400px; height: 400px"/>
 </div>
 
 <h3>Dashboard</h3>
